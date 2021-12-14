@@ -1,5 +1,5 @@
 <div align="center">
-  ## How are people connected ?
+  How are people connected ?
 </div>
 
 
