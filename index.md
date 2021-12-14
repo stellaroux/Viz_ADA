@@ -5,9 +5,9 @@ You can use the [editor on GitHub](https://github.com/stellaroux/Viz_ADA/edit/gh
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
 Test here 
-Is it working?
+Is it working? Yes
 
-<iframe width="860" height="1815" src="./docs/nt.html"></iframe>
+<iframe width="760" height="1555" src="./docs/nt.html"></iframe>
 
 GIF here
 
