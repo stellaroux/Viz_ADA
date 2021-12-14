@@ -1,5 +1,4 @@
-![image info](./docs/connected-people-13906824.jpg)
-
+![image info](./docs/networking-vs-connecting.jpg)
 
 ## Introduction 
 
