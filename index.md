@@ -1,4 +1,4 @@
-![image info](./docs/networking-vs-connecting.jpg)
+![](./docs/networking-vs-connecting.jpg)
 
 ## Introduction 
 
