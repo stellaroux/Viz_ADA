@@ -1,7 +1,5 @@
-## How are people connected ?
-
 <div align="center">
-  my text here.
+  ## How are people connected ?
 </div>
 
 
