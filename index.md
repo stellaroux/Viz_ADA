@@ -9,6 +9,8 @@ In the following project, we want to establish a graph of relationships between 
 
 ## Speaker/Subject and name inference ?
 
+Blablabla
+
 ## Interactive graphs ?
 
 ### Test interactive graph
@@ -19,6 +21,9 @@ Is it working? Yes
 <iframe width="760" height="1555" src="./docs/nt.html"></iframe>
 
 ## Short study
+
+Blablabla
+
 
 GIF here
 
