@@ -1,7 +1,4 @@
-<div align="center">
-  How are people connected ?
-</div>
-
+## Introduction 
 
 ### Abstract 
 
