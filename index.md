@@ -6,7 +6,7 @@ Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://j
 
 Test here 
 
-{% include_relative ./docs/nt.html %}
+<iframe width="860" height="1815" src="./docs/nt.html"></iframe>
 
 GIF here
 
