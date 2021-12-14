@@ -5,9 +5,9 @@ You can use the [editor on GitHub](https://github.com/stellaroux/Viz_ADA/edit/gh
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
 Test here 
-{% include nt.html %}
 
-![Test](https://github.com/stellaroux/Viz_ADA/nt.html)
+{% include_relative nt.html %}
+
 
 ![Alt Text](https://media.giphy.com/media/vFKqnCdLPNOKc/giphy.gif)
 
