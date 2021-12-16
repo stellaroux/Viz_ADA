@@ -28,7 +28,7 @@ Using SpaCy, we extract 100 000 quotations for each year (2015 to 2020) in which
 |2020|17498|7000|5274|
 
 
-\\
+\
 
 
 ## Some occupations are at the heart of the relationships… (Part 1)
@@ -38,7 +38,7 @@ Graph with occupation : 2015
 Analysis : relashionships ~ 2 paragraph 
 
 
-\\
+\
 
 
 ## … and often very gendered ones. (Part 2)
