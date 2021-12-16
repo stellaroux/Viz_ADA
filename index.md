@@ -2,12 +2,18 @@
 
 ## Introduction 
 
-### Abstract 
+It is very often the case that well-known personalities are quoted in speeches given by other individuals, creating a directional relationship from a speaker to a subject. These relationships occur between two persons with different characteristics, for example their occupation and their gender. As a result, these relationships can be multiple with (very) different natures, where some of these are perhaps more present than others.
 
-In the following project, we want to establish a graph of relationships between speakers and people mentioned in the quotations. Our motivation is to find out if those relationships can be clustered according to certain conditions. Predominantly, we will analyse the role of occupations among citations from various nationalities, dates and genders. At first, we extract the referred names from each quotation using the SpaCy model. We then make a preliminary analysis on the extracted names and their occupation distribution. Subsequently, we select additional variables to use for a meaningful clustering. We present the found relationships between speakers and referred persons on a graph, whose nodes the clusters and edges represent the “has mentioned” relationship.
+This brings us to the question, how are these relationships distributed? In this article, we propose to study and understand the relationships between several individuals according to the occupation and gender of each person involved in a relationship. In particular, some of the questions that will be answered in this article are:
+
+\bullet Are these relationships uniform, i.e., involving people of the same occupation?
+\bullet How are the genders represented according to occupation in each relationship?
+\bullet Are these relationships likely to change over time?
 
 
-## The data 
+## Method
+
+In the following project, we want to establish a graph of relationships between speakers and people mentioned in the quotations. Our motivation is to find out if those relationships can be clustered according to certain conditions. Predominantly, we will analyse the role of occupations among citations for various genders. At first, we extract the referred names from each quotation using the SpaCy model. We then make a preliminary analysis on the extracted names and their occupation distribution. Subsequently, we select additional variables to use for a meaningful clustering. We present the found relationships between speakers and referred persons on a graph, whose nodes the clusters and edges represent the “has mentioned” relationship.
 
 ### Speaker/Subject and name inference ?
 
