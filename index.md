@@ -28,6 +28,8 @@ Using SpaCy, we extract 100 000 quotations for each year (2015 to 2020) in which
 
 We then make a preliminary analysis on the extracted names and their gender and occupation distribution.
 
+[% include Gender_speakers.html %]
+
 <img src="./docs/Gender_speakers.png " alt="hi" class="inline"/>
 
 <img src="./docs/Gender_subjects.png " alt="hi" class="inline"/>
