@@ -13,7 +13,7 @@ This brings us to the question, how are these relationships distributed? In this
 
 ## The data
 
-Where does the original dataset come from? Which journal (what kind of content?)
+In this study we use the Quotebank dataset, a dataset of 178 million unique, speaker-attributed quotations that were extracted from 196 million English news articles crawled from over **377 thousand web domains** between August 2008 and April 2020. We will focus on the years of **2015 to 2020**. 
 
 Using SpaCy, we extract 100 000 quotations for each year (2015 to 2020) in which a speaker is talking about a human subject. After cleaning, we get the following amount of samples:
 
