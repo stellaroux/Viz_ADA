@@ -40,7 +40,11 @@ Clearly the answer is no. According to worldometers in 2013 there are 50.4 % of 
 
 In order to understand why women are underrepresented we have a look at the occupation of both male and female.
 
-{% include Occ_speakers_female.html %}
+ |
+:--- | --- :
+|{% include Occ_speakers_female.html %} |{% include Occ_subjects_female.html %}|
+|{% include Occ_speakers_male.html %} |{% include Occ_subjects_male.html %}|
+
 
 ## Some occupations are at the heart of the relationships…
 
