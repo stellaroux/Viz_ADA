@@ -38,17 +38,15 @@ We now want to look at what this data tells us about gender equality. Do men, wo
 
 Clearly the answer is no. According to worldometers in 2013 there are 50.4 % of men and 49.6 % of women  in the world. Hence it seems that women are very underrepresented in the media. Indeed **women are the origin of less than 20 % of the quotes** that are reported in the media and are **5 times less likely than men to be spoken** about in the media.
 
+In order to understand why women are underrepresented we have a look at the occupation of both male and female.
 
-
-
-Subsequently, we select additional variables to use for a meaningful clustering. We present the found relationships between speakers and referred persons on a graph, whose nodes the clusters and edges represent the “has mentioned” relationship.
+{% include Occ_speakers_female.html %}
 
 ## Some occupations are at the heart of the relationships…
 
 Test here 
 Is it working? Yes
 
-{% include Gender_speakers.html %}
 
 <iframe width="760" height="1155" src="./docs/Gender_speakers.html"></iframe>
 
