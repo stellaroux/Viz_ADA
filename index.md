@@ -15,6 +15,7 @@ This brings us to the question, how are these relationships distributed? In this
 
 Using SpaCy, we extract 100 000 quotations for each year (2015 to 2020) in which a speaker is talking about a human subject. After cleaning, we get the following amount of samples:
 
+(TO DO pretty)
 | Year | Number of quotations | Number of speakers | Number of subjects |
 | --- | --- | --- | --- |
 |2015|     |     |     |
@@ -24,7 +25,10 @@ Using SpaCy, we extract 100 000 quotations for each year (2015 to 2020) in which
 |2019|     |     |     |
 |2020|     |     |     |
 
-We then make a preliminary analysis on the extracted names and their occupation distribution. Subsequently, we select additional variables to use for a meaningful clustering. We present the found relationships between speakers and referred persons on a graph, whose nodes the clusters and edges represent the “has mentioned” relationship.
+
+We then make a preliminary analysis on the extracted names and their occupation distribution.
+
+Subsequently, we select additional variables to use for a meaningful clustering. We present the found relationships between speakers and referred persons on a graph, whose nodes the clusters and edges represent the “has mentioned” relationship.
 
 ## Some occupations are at the heart of the relationships…
 
