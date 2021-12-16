@@ -29,8 +29,6 @@ Using SpaCy, we extract 100 000 quotations for each year (2015 to 2020) in which
 
 We then make a preliminary analysis on the extracted names and their gender and occupation distribution. Here change
 
-{% include docs/Gender_speakers.html %}
-
 Subsequently, we select additional variables to use for a meaningful clustering. We present the found relationships between speakers and referred persons on a graph, whose nodes the clusters and edges represent the “has mentioned” relationship.
 
 ## Some occupations are at the heart of the relationships…
@@ -38,7 +36,7 @@ Subsequently, we select additional variables to use for a meaningful clustering.
 Test here 
 Is it working? Yes
 
-<iframe width="760" height="1155" src="./docs/nt.html"></iframe>
+<iframe width="760" height="1155" src="./docs/Gender_speakers.html"></iframe>
 
 ## … and often very gendered ones.
 
