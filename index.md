@@ -28,8 +28,9 @@ Using SpaCy, we extract 100 000 quotations for each year (2015 to 2020) in which
 |2020|17498|7000|5274|
 
 
-## How are the genders represented ?
+## How are the genders represented ? (Question 2)
 
+We now want to look at what this data tells us about gender equality. Do men, women and other genders are the same visibility in the media in general?
 
  |
 :--- | --- :
