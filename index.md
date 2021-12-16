@@ -45,9 +45,10 @@ Analysis : relashionships ~ 2 paragraph
 
 Graph with gender_occupation : 2015 :
 
-Works??
+Works???
 
 <iframe src="./docs/nt_2015.html"  width=800 height=1200></iframe>
+
 
 
 Analysis ~ 2 paragraph 
