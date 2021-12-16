@@ -39,6 +39,19 @@ Graph with occupation : 2015
 
 Analysis : relashionships ~ 2 paragraph 
 
+
+\\
+\\
+
+## … and often very gendered ones. (Part 2)
+
+Graph with gender_occupation : 2015
+
+Analysis ~ 2 paragraph 
+
+(Graph which gender/occupation talks to which gender/occupation ?)
+
+
 We now want to look at what this data tells us about gender equality. Do men, women and other genders have the same visibility in the media in general?
 
  |
@@ -64,17 +77,6 @@ We provide the following graph:
 
 
 Graph which occupation talks to which occupation ?
-
-\\
-\\
-
-## … and often very gendered ones. (Part 2)
-
-Graph with gender_occupation : 2015
-
-Analysis ~ 2 paragraph 
-
-(Graph which gender/occupation talks to which gender/occupation ?)
 
 \\
 \\
