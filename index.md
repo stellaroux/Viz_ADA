@@ -30,12 +30,9 @@ Using SpaCy, we extract 100 000 quotations for each year (2015 to 2020) in which
 
 ## How are the genders represented ?
 
+<img src="./docs/Gender_speakers.png " alt="hi" class="inline"/ width="500" height="600">
 
-{% include Gender_speakers.html %}
-
-<img src="./docs/Gender_speakers.png " alt="hi" class="inline"/>
-
-<img src="./docs/Gender_subjects.png " alt="hi" class="inline"/>
+<img src="./docs/Gender_subjects.png " alt="hi" class="inline"/  width="500" height="600">
 
 Subsequently, we select additional variables to use for a meaningful clustering. We present the found relationships between speakers and referred persons on a graph, whose nodes the clusters and edges represent the “has mentioned” relationship.
 
@@ -43,6 +40,8 @@ Subsequently, we select additional variables to use for a meaningful clustering.
 
 Test here 
 Is it working? Yes
+
+{% include Gender_speakers.html %}
 
 <iframe width="760" height="1155" src="./docs/Gender_speakers.html"></iframe>
 
