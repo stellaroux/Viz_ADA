@@ -30,9 +30,17 @@ Using SpaCy, we extract 100 000 quotations for each year (2015 to 2020) in which
 
 ## How are the genders represented ?
 
-<img src="./docs/Gender_speakers.png " alt="hi" class="inline"/ width="500" height="600">
+ <div class="row">
+  <div class="column">
+    <img src="./docs/Gender_speakers.png " alt="Forest" style="width:100%">
+  </div>
+  <div class="column">
+    <img src="./docs/Gender_subjects.png " alt="Forest" style="width:100%">
+  </div>
+</div> 
 
-<img src="./docs/Gender_subjects.png " alt="hi" class="inline"/  width="500" height="600">
+
+
 
 Subsequently, we select additional variables to use for a meaningful clustering. We present the found relationships between speakers and referred persons on a graph, whose nodes the clusters and edges represent the “has mentioned” relationship.
 
