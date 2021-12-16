@@ -40,7 +40,7 @@ We now want to look at what this data tells us about gender equality. Do men, wo
 
 Clearly the answer is no. According to worldometers in 2013 there are 50.4 % of men and 49.6 % of women  in the world. Hence it seems that women are very underrepresented in the media. Indeed **women are the origin of less than 20 % of the quotes** that are reported in the media and are **5 times less likely than men to be spoken** about in the media.
 
-We dig a bit more into gender inequality and want to know what are the occupations of the women represented in the media compared to men.
+We dig a bit more into gender inequality and want to know what are the occupations of the women represented in the media compared to men. TOO MUCH DATA?
 
 Let's start with the women occupations.
 
