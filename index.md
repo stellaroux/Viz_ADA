@@ -27,10 +27,17 @@ Using SpaCy, we extract 100 000 quotations for each year (2015 to 2020) in which
 |2019|15946|7530|5583|
 |2020|17498|7000|5274|
 
+Presentation
+
+
 \\
 \\
 
-## How are the genders represented ? (Question 2)
+## Some occupations are at the heart of the relationships… (Part 1)
+
+Graph with occupation : 2015
+
+Analysis : relashionships ~ 2 paragraph 
 
 We now want to look at what this data tells us about gender equality. Do men, women and other genders have the same visibility in the media in general?
 
@@ -44,16 +51,10 @@ We dig a bit more into gender inequality and want to know what are the occupatio
 
 Let's start with the women occupations.
 
-{% include Occ_speakers_female.html %}
-{% include Occ_subjects_female.html %}
-
 Most of the women present in the media are artists. There is also a few politicians.
 We notice that although on repartition quite a lot of women which said quotes are involved in politics (throughout the years  always more than 17%) or are researchers, business persons, most of the women names found in quotes are artist names. And for politicians are way more represented as speakers than as subjects. 
 
 Now what about the men occupations?
-
-{% include Occ_speakers_male.html %} 
-{% include Occ_subjects_male.html %}
 
 Most of the men present in the media are politicians, artists and sports players.
 
@@ -62,20 +63,29 @@ Let's dive deaper into this gender inequality and try to understand why women ar
 We provide the following graph:
 
 
+Graph which occupation talks to which occupation ?
+
+\\
+\\
+
+## … and often very gendered ones. (Part 2)
+
+Graph with gender_occupation : 2015
+
+Analysis ~ 2 paragraph 
+
+(Graph which gender/occupation talks to which gender/occupation ?)
+
+\\
+\\
+
+## Towards an evolution in time? (Part 3)
+
+Evolution
 
 
 
-## Some occupations are at the heart of the relationships…
-
-Test here 
-Is it working? Yes
 
 
-<iframe width="760" height="1155" src="./docs/Gender_speakers.html"></iframe>
 
-## … and often very gendered ones.
-
-Below is the same graph than before but this time with the occupation and gender of each person as a comparison key.
-
-## Towards an evolution in time?
 
