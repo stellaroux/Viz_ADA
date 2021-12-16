@@ -30,14 +30,11 @@ Using SpaCy, we extract 100 000 quotations for each year (2015 to 2020) in which
 
 ## How are the genders represented ?
 
- <div class="row">
-  <div class="column">
-    <img src="./docs/Gender_speakers.png " alt="Forest">
-  </div>
-  <div class="column">
-    <img src="./docs/Gender_subjects.png " alt="Forest">
-  </div>
-</div> 
+
+| |
+| --- | --- |
+|<img src="./docs/Gender_speakers.png " alt="Forest"> |<img src="./docs/Gender_subjects.png " alt="Forest">|
+
 
 
 
