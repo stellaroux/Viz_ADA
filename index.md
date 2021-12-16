@@ -55,7 +55,12 @@ Now what about the men occupations?
 {% include Occ_speakers_male.html %} 
 {% include Occ_subjects_male.html %}
 
-Most of the women present in the media are politicians, artists and sports players.
+Most of the men present in the media are politicians, artists and sports players.
+
+Let's dive deaper into this gender inequality and try to understand why women are that much underrepresented in the media.
+
+We provide the following graph:
+
 
 
 
