@@ -6,9 +6,9 @@ It is very often the case that well-known personalities are quoted in speeches g
 
 This brings us to the question, how are these relationships distributed? In this article, we propose to study and understand the relationships between several individuals according to the occupation and gender of each person involved in a relationship. In particular, some of the questions that will be answered in this article are:
 
-\bullet Are these relationships uniform, i.e., involving people of the same occupation?
-\bullet How are the genders represented according to occupation in each relationship?
-\bullet Are these relationships likely to change over time?
+* Are these relationships uniform, i.e., involving people of the same occupation?
+* How are the genders represented according to occupation in each relationship?
+* Are these relationships likely to change over time?
 
 
 ## Method
