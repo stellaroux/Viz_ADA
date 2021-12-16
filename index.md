@@ -19,12 +19,12 @@ Using SpaCy, we extract 100 000 quotations for each year (2015 to 2020) in which
 
 | Year | Number of quotations | Number of speakers | Number of subjects |
 | --- | --- | --- | --- |
-|2015|     |     |     |
-|2016|     |     |     |
-|2017|     |     |     |
-|2018|     |     |     |
-|2019|     |     |     |
-|2020|     |     |     |
+|2015|     |8146|6060|
+|2016|     |7966|5814|
+|2017|     |8177|6009|
+|2018|     |7985|6063|
+|2019|     |7530|5583|
+|2020|     |7000|5274|
 
 
 We then make a preliminary analysis on the extracted names and their gender and occupation distribution.
