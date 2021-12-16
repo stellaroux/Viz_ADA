@@ -11,11 +11,10 @@ This brings us to the question, how are these relationships distributed? In this
 * Are these relationships likely to change over time?
 
 
-## Preliminary analysis
+## The data
 
 Using SpaCy, we extract 100 000 quotations for each year (2015 to 2020) in which a speaker is talking about a human subject. After cleaning, we get the following amount of samples:
 
-(TO DO pretty)
 
 | Year | Number of quotations | Number of speakers | Number of subjects |
 | --- | --- | --- | --- |
