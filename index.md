@@ -45,7 +45,10 @@ In order to understand why women are underrepresented we have a look at the occu
  |
 :--- | --- :
 |{% include Occ_speakers_female.html %} |{% include Occ_subjects_female.html %}|
-|{% include Occ_speakers_male.html %} |{% include Occ_subjects_male.html %}|
+
+
+{% include Occ_speakers_male.html %} 
+{% include Occ_subjects_male.html %}
 
 
 ## Some occupations are at the heart of the relationships…
