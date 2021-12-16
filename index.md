@@ -31,7 +31,7 @@ Presentation
 
 
 \\
-\\
+
 
 ## Some occupations are at the heart of the relationships… (Part 1)
 
@@ -41,7 +41,7 @@ Analysis : relashionships ~ 2 paragraph
 
 
 \\
-\\
+
 
 ## … and often very gendered ones. (Part 2)
 
