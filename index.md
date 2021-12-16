@@ -40,21 +40,24 @@ We now want to look at what this data tells us about gender equality. Do men, wo
 
 Clearly the answer is no. According to worldometers in 2013 there are 50.4 % of men and 49.6 % of women  in the world. Hence it seems that women are very underrepresented in the media. Indeed **women are the origin of less than 20 % of the quotes** that are reported in the media and are **5 times less likely than men to be spoken** about in the media.
 
-In order to understand why women are underrepresented we have a look at the occupation of both male and female.
+We dig a bit more into gender inequality and want to know what are the occupations of the women represented in the media compared to men.
 
- <div class="row">
-  <div class="column">
-    {% include Occ_speakers_female.html %}
-  </div>
-  <div class="column">
-     {% include Occ_subjects_female.html %}
-  </div>
-</div> 
+Let's start with the women occupations.
 
+{% include Occ_speakers_female.html %}
+{% include Occ_subjects_female.html %}
 
+Most of the women present in the media are artists. There is also a few politicians.
+We notice that although on repartition quite a lot of women which said quotes are involved in politics (throughout the years  always more than 17%) or are researchers, business persons, most of the women names found in quotes are artist names. And for politicians are way more represented as speakers than as subjects. 
+
+Now what about the men occupations?
 
 {% include Occ_speakers_male.html %} 
 {% include Occ_subjects_male.html %}
+
+Most of the women present in the media are politicians, artists and sports players.
+
+
 
 
 ## Some occupations are at the heart of the relationships…
