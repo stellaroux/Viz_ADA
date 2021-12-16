@@ -27,9 +27,11 @@ Using SpaCy, we extract 100 000 quotations for each year (2015 to 2020) in which
 |2020|     |     |     |
 
 
-We then make a preliminary analysis on the extracted names and their gender and occupation distribution. Here change
+We then make a preliminary analysis on the extracted names and their gender and occupation distribution.
 
 <img src="./docs/Gender_speakers.png " alt="hi" class="inline"/>
+
+<img src="./docs/Gender_subjects.png " alt="hi" class="inline"/>
 
 Subsequently, we select additional variables to use for a meaningful clustering. We present the found relationships between speakers and referred persons on a graph, whose nodes the clusters and edges represent the “has mentioned” relationship.
 
