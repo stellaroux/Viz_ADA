@@ -47,7 +47,7 @@ Graph with gender_occupation : 2015 :
 
 Works?
 
-<iframe src="./docs/nt_2015.html"  width="500" height="130"></iframe>
+<iframe src="./docs/nt_2015.html"  width="800" height="1200"></iframe>
 
 TEST 
 
