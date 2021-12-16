@@ -45,7 +45,9 @@ Analysis : relashionships ~ 2 paragraph
 
 ## … and often very gendered ones. (Part 2)
 
-Graph with gender_occupation : 2015
+Graph with gender_occupation : 2015 :
+
+{% include nt_2015.html %}
 
 Analysis ~ 2 paragraph 
 
