@@ -32,10 +32,10 @@ Using SpaCy, we extract 100 000 quotations for each year (2015 to 2020) in which
 
  <div class="row">
   <div class="column">
-    <img src="./docs/Gender_speakers.png " alt="Forest" style="width:100%">
+    <img src="./docs/Gender_speakers.png " alt="Forest">
   </div>
   <div class="column">
-    <img src="./docs/Gender_subjects.png " alt="Forest" style="width:100%">
+    <img src="./docs/Gender_subjects.png " alt="Forest">
   </div>
 </div> 
 
