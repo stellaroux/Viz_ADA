@@ -13,10 +13,17 @@ This brings us to the question, how are these relationships distributed? In this
 
 ## Method
 
-In the following project, we want to establish a graph of relationships between speakers and people mentioned in the quotations. At first, we extract the referred names from each quotation using the SpaCy model. We then make a preliminary analysis on the extracted names and their occupation distribution. Subsequently, we select additional variables to use for a meaningful clustering. We present the found relationships between speakers and referred persons on a graph, whose nodes the clusters and edges represent the “has mentioned” relationship.
+In the following project, we want to establish a directed graph of relationships between speakers and people mentioned in the quotations. At first, we extract the referred names from each quotation using the SpaCy model. We then make a preliminary analysis on the extracted names and their occupation distribution. Subsequently, we select additional variables to use for a meaningful clustering. We present the found relationships between speakers and referred persons on a graph, whose nodes the clusters and edges represent the “has mentioned” relationship.
 
 (Here how many data we have?)
-We collected 
+| Year | Number of quotations | Number of speakers | Number of subjects |
+| --- | --- | --- | --- |
+|2015|     |     |     |
+|2016|     |     |     |
+|2017|     |     |     |
+|2018|     |     |     |
+|2019|     |     |     |
+|2020|     |     |     |
 
 ## Some occupations are at the heart of the relationships…
 
