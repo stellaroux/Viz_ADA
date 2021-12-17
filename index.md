@@ -80,12 +80,16 @@ We provide the following graph:
 
 In fact we can see that in general a women is 3 times more likely that a men to speak about another women. Now let's see what happens if we focus on an occupation in particular.
 
-\\
-\\
 
-## Towards an evolution in time? (Part 3)
+## Towards an evolution in time (Part 3)
 
-Evolution
+We were interested in how the relationships evolve over time. We computed the difference between the relative connection strength between 2015 and 2020 for every occupation pairs and plotted on histogram. The majority of the pairs are having close to zero change over time, therefore we can conclude that our graphs remain similiar over time. 
+
+|<img src="./docs/P3-1.png" alt="Evolution_histogram"> |<img src="./docs/P3-1.png " alt="Forest">|
+
+Although we can mention some highlights, for example politicians tend to lose interest in publicly mentioning diplomats and autobiographers, but are focusing more on businesspeople and television producers over the last 5-6 years.
+
+|<img src="./docs/P3-2.png" alt="Forest"> |<img src="./docs/P3-2.png " alt="Forest">|
 
 
 
