@@ -133,7 +133,8 @@ Nevertheless, as some have changed, let’s select the first six relationships t
 
 According to the plot above, we can see that politicians have lost interest to mention autobiographers and diplomats between 2016 and 2020 with a decrease of about 13% and 15%. Nevertheless, there is an evolution (strong one !) of interest towards business people and television producers with an increase of about 33% between 2015 and 2016. At last, we can see an increase of 32%  for the relationship of lawyers talking to politicians.
 
+## Discussion
 
-
+In this work we analyzed relationships between individuals. To visualize the connections we used directed graphs and the Quotebank dataset. We provided insights into our social system, and showed which occupations tend to be really closed communities (eq.: football players) and which are more open. We also added gender to the graph and we found a strong clusterization among women. In fact a woman is 4 times more likely to to another woman, than a man. We also found gender inequality among politicians, which is an actively discussed topic nowadays. By analyzing the temporal changes, we observed weak trends of communication and target audience shift among politicians. During our project we pointed out the structural difficulties within our society and our results might contribute to future studies in the field of social sciences.
 
 
