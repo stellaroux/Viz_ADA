@@ -55,7 +55,7 @@ Especially, the female’s cluster could be separated in such a way that females
 
 About males, they are much more represented and especially in different occupations ! Science and sport as occupations are very present compared to females, as well as religion. (TODO: continue)
 
-Finally, what about relationships between males and females ? Well, almost none… The graph shows a real separation and gap in communication between them where it is mostly the people attached to the public domain who are closest to the men. Moreover, women in the artistic field communicate little with men of the same field. The artistic field does not escape it, where women don’t communicate much with men, even in the same field. On the whole, relationships between individuals are very gendered ones according to the occupation that each one occupies. 
+Finally, what about relationships between males and females ? Well, almost none… The graph shows a real separation and gap in communication between them where it is mostly the people attached to the public domain who are closest to the men. The artistic field does not escape it, where women don’t communicate much with men, even in the same field. On the whole, relationships between individuals are very gendered ones according to the occupation that each one occupies. 
 
 Are we missing something ? (TODO: Stella's part)
 
