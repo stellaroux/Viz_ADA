@@ -2,9 +2,9 @@
 
 ## Introduction 
 
-It is very often the case that well-known personalities are quoted in speeches given by other individuals, creating a directional relationship from a speaker to a subject. These relationships occur between two persons with different characteristics, for example their occupation and their gender. As a result, these relationships can be multiple with (very) different natures, where some of these are perhaps more present than others.
+It is very often the case that well-known personalities are quoted in speeches given by other individuals, creating a **directional relationship from a speaker to a subject**. These relationships occur between two persons with different characteristics, for example their occupation and their gender. As a result, these relationships can be multiple with (very) different natures, where some of these are perhaps more present than others.
 
-This brings us to the question, how are these relationships distributed? In this article, we propose to study and understand the relationships between several individuals according to the occupation and gender of each person involved in a relationship. To do so, we want to establish a directed graph of relationships between speakers and people mentioned in the quotations. In particular, some of the questions that will be answered in this article are:
+This brings us to the question, **how are these relationships distributed?** In this article, we propose to study and understand the relationships between several individuals according to the occupation and gender of each person involved in a relationship. To do so, we want to establish a directed graph of relationships between speakers and people mentioned in the quotations. In particular, some of the questions that will be answered in this article are:
 
 * Are these relationships uniform, i.e., involving people of the same occupation?
 * How are the genders represented according to occupation in each relationship?
@@ -46,33 +46,33 @@ Analysis : relashionships ~ 2 paragraph
 
 Now what the data tells us about the visibility of men, women and other genders in the media in general according to their occupation?
 
-Below is a directed graph represening the interactions between speakers and subjects but this time the graph is generated with the occupation and gender of each person as a comparison key. Nodes and edges in blue and red concern respectively males and females.
+Below is a directed graph represening the **interactions between speakers and subjects** but this time the graph is generated with the**occupation and gender of each person** as a comparison key. Nodes and edges in blue and red concern respectively males and females.
 
 <iframe src="./docs/html_graphs/nt_occupation_gender_2015.html" width=800 height=1200></iframe>
 
-Compared to the graph with the occupation as a comparison key, 2 clusters are clearly visible : the "female cluster" and the "male cluster". Both are very connected within themselves, very far apart from each other and highlight several differences between males and females. 
+Compared to the graph with the occupation as a comparison key, **2 clusters are clearly visible : the "female cluster" and the "male cluster"**. Both are very connected within themselves, very far apart from each other and highlight several differences between males and females. 
 
-At first we can see that the female and male clusters have very different sizes. And if we take a closer look on the data we can see that, indeed, women are very underrepresented in the media.
+At first we can see that the female and male clusters have very different sizes. And if we take a closer look on the data we can see that, indeed, women are very underrepresented in this dataset.
 
  |
 :--- | --- :
 |<img src="./docs/Gender_speakers.png" alt="Forest"> |<img src="./docs/Gender_subjects.png " alt="Forest">|
 
-According to worldometers in 2013 there are 50.4 % of men and 49.6 % of women  in the world. Hence it seems that women are very underrepresented in the media. Indeed **women are the origin of less than 20 % of the quotes** that are reported in the media and are **5 times less likely than men to be spoken** about in the media.
+Indeed **women are the origin of less than 20 % of the quotes** that are reported in the media and are **5 times less likely than men to be spoken** about in the media.
 
 We now have a closer look at the graph and want to know what are the occupations of the women represented in the media compared to men.
 
-Let's start with the women occupations.
+**Let's start with the women occupations**.
 
 Most of the women present in the media are artists. There is also a few politicians.
 We notice that although on repartition quite a lot of women which said quotes are involved in politics (throughout the years  always more than 17%) or are researchers, business persons, most of the women names found in quotes are artists. And women politicians are way more represented as speakers than as subjects. 
 
-Now what about the men occupations?
+**Now what about the men occupations?**
 
 Most of the men present in the media are politicians, artists and sports players. They are much more represented than female in the different occupations and especially in science and sport as well as religion. 
 
 
-Finally, what about relationships between males and females ? Well, almost none… The graph shows a real separation and gap in communication between them where it is mostly the people attached to the public domain who are closest to the men. The artistic field does not escape it, where women don’t communicate much with men, even in the same field. On the whole, relationships between individuals are very gendered ones according to the occupation that each one occupies. 
+**Finally, what about relationships between males and females?** Well, almost none… The graph shows a real separation and gap in communication between them where it is mostly the people attached to the public domain who are closest to the men. The artistic field does not escape it, where women don’t communicate much with men, even in the same field. On the whole, relationships between individuals are very gendered ones according to the occupation that each one occupies. 
 Is it really that men only talk about other men and women only talk about other women?
 
 We provide the following graph:
