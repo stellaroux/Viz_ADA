@@ -35,6 +35,8 @@ Using SpaCy, we extract 100 000 quotations for each year (2015 to 2020) in which
 
 Graph with occupation : 2015
 
+Below is integrated a graph of relationships between speakers (people who mentioned) and subjects (people who have been mentioned) with the occupation of each person as a comparison key. In other words, a node corresponds to an occupation and a directed edge to the relations between these nodes, i.e., which occupation spoke to which occupation. The present entities (nodes and edges) are weighted according to their redundancy in the graph. Two nodes are close if the relation between these two nodes is strong, i.e., the weight of the edge is large (also nodes and edges are darker). The graph is interactive, feel free to zoom or select nodes!
+
 Analysis : relashionships ~ 2 paragraph 
 
 
