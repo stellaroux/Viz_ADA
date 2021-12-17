@@ -90,11 +90,11 @@ We were interested in how the relationships evolve over time. We computed the di
 
 <img src="./docs/P3-1.png" alt="Evolution_histogram">
 
-Although we can mention some highlights, for example politicians tend to lose interest in publicly mentioning diplomats and autobiographers, but are focusing more on businesspeople and television producers over the last 5-6 years.
+Now, let’s select the first six relationships that have the most changed between 2015 and 2020. 
 
 <img src="./docs/P3-2.png" alt="Forest">
 
-
+According to the plot above, we can see that politicians have lost interest to mention autobiographers and diplomats between 2016 and 2020 with respectively a decrease of about 13% and 15%. Nevertheless, there is an evolution (strong one !) of interests towards business people and television producers with an increase of about 33% between 2015 and 2016. At last, we can see an increase of 32%  for the relationship of lawyers talking to politicians.
 
 
 
