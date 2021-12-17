@@ -27,8 +27,9 @@ Using SpaCy, we extract 100 000 quotations for each year (2015 to 2020) in which
 |2019|15946|7530|5583|
 |2020|17498|7000|5274|
 
+Blank
 
-
+&nbsp;
 
 
 ## Some occupations are at the heart of the relationships… (Part 1)
