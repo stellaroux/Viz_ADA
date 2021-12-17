@@ -32,14 +32,28 @@ Using SpaCy, we extract 100 000 quotations for each year (2015 to 2020) in which
 
 ## Some occupations are at the heart of the relationships…
 
+
+
 Below is a directed graph representing the relationships between the different occupations. **A node corresponds N to a single occupation** (e.g. 'politician', 'actor'). Its size indicates the amount of unique people (either speaker, subject or both) whose occupations include N. It is common for the people included in the data to have multiple occupations.
-An edge between nodes A and B indicates that someone of occupation A mentioned someone of occupation B at least once. However the edges are also weighted between 0 and 1: an edge A->B of weight 0.25 indicates that in 25% of the quotations whose speaker's occupations include A, the subject has occupation B. The weight of the edges are indicated by their opacity and width.
+An edge between nodes A and B indicates that someone of occupation A mentioned someone of occupation B at least once. However the graph is actually almost complete as it only takes a single quotation for an edge to be created. The following charts show the network's degree distribution:
+ |
+:--- | --- :
+|<img src="./docs/figures/degree_distrib_occ.png" alt="Degree_distrib_occs"> |<img src="./docs/figures/degree_distrib_occgen.png " alt="Degree_distrib_occs_gender">|
+Those distributions are **heavily** skewed, far from the usual real-world network. This means two things:
+- We can't display all edges
+- The existence of an edge between two nodes does not on its own represent very valuable information. That's why we'll need to deal with the **weights** of the edges rather than the facts that they exist.
 
-<iframe src="./docs/html_graphs/nt_occupation_2015.html"  width=800 height=1200 id="graph1"></iframe>
+We define the **interest** of an occupation A in an occupation B as the proportion of the quotations whose speaker is A for which the subject is B. Said in a more natural manner, the *interest* reflects the probability that "*when A talks, it's about B*". The total interest coming out of an occupation is necessarily 1. The interests are indicated in the network by the edges' widths and opacities:
 
-Of what we can see, the graph is highly connected and fits in one piece with numerous occupations which are not distributed in the same way with some being more present than others, such as politicians compared to sport cyclists. 
+<p style="background-color:springgreen;font-size:small;"><h5>The Interest of occupations for one another</h5>
+<iframe src="./docs/html_graphs/nt_occupation_2015.html"  width=800 height=800 id="graph1"></iframe>
+Network indicating the "has mentioned" relationship between all occupations that include at least 60 people. The weight of edges indicate the interest of the source occupation in the destination occupation. For a node N, an edge E is displayed only if its weight reaches the 95%-percentile of the weights of all edges coming out of N.
+</p>
+The graph is highly connected and is with numerous occupations which are not distributed in the same way with some being more present than others, such as politicians compared to sport cyclists.
 
-What about relationships ? There are a lot of them where in particular, some occupations seem to be at the heart of attention such as politicians, writers, singers or actors, as indeed, these are the occupations that most people with other occupations refer to. On the other hand, some relationships are common sense, as for example, we can see that sports managers and coaches are mostly addressing to sportives. Also, some relationships are very inclusive, that is to say, that people with the same occupation are more likely to refer to each other, it is notably the case for football players. 
+What about relationships ? There are a lot of them where in particular, some occupations seem to be at the heart of attention such as politicians, writers, singers or actors. Besides some relationships are common sense, as for example, we can see that sports managers and coaches are mostly addressing to sportives. Furthermore, some relationships are very inclusive, that is to say, that people with the same occupation are more likely to refer to each other, it is notably the case for football players. 
+
+Let's **explore** which occupations get the most **interest**, with different meanings for *"most"*.
 
 ## … and often very gendered ones.
 
@@ -47,7 +61,7 @@ Now what the data tells us about the visibility of men, women and other genders 
 
 Below is a directed graph represening the **interactions between speakers and subjects** but this time the graph is generated with the**occupation and gender of each person** as a comparison key. Nodes and edges in blue and red concern respectively males and females.
 
-<iframe src="./docs/html_graphs/nt_occupation_gender_2015.html" width=800 height=1200></iframe>
+<iframe src="./docs/html_graphs/nt_occupation_gender_2015.html" width=800 height=800></iframe>
 
 Compared to the graph with the occupation as a comparison key, **2 clusters are clearly visible : the "female cluster" and the "male cluster"**. Both are very connected within themselves, very far apart from each other and highlight several differences between males and females. 
 
