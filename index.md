@@ -44,22 +44,6 @@ Analysis : relashionships ~ 2 paragraph
 
 ## … and often very gendered ones. (Part 2)
 
-Below is a directed graph representing the interactions between speakers and subjects but this time the graph is generated with the occupation and gender of each person as a comparison key. Nodes and edges in blue and red concern respectively males and females.
-
-<iframe src="./docs/nt_2015.html"  width=800 height=1200 id="graph2"></iframe>
-
-Compared to the graph with the occupation as a comparison key, 2 clusters are clearly visible : the "female cluster" and the "male cluster". Both are very connected within themselves, very far apart from each other and highlight several differences between males and females. 
-
-Whether one is a male or a female, occupations are not distributed in the same way, where as an example, sportswomen are not represented, hence a smaller number of nodes. Note also that men are more present in some occupations than women, as for example in politics. 
-
-Especially, the female’s cluster could be separated in such a way that females are gathered in the field of art (singers for example) or in the humanities (politicians for example), where these areas are distant from each other. As for the relationships between women, they communicated mainly between domains, where the politicians and lawyers do not communicate with people of the artistic field. On top of everything else, singers and actors seem to be at the heart of the attention, being the occupations that most women refer to.
-
-About males, they are much more represented and especially in different occupations ! Science and sport as occupations are very present compared to females, as well as religion. (TODO: continue)
-
-Finally, what about relationships between males and females ? Well, almost none… The graph shows a real separation and gap in communication between them where it is mostly the people attached to the public domain who are closest to the men. The artistic field does not escape it, where women don’t communicate much with men, even in the same field. On the whole, relationships between individuals are very gendered ones according to the occupation that each one occupies. 
-
----------------------------------------------------------
-
 Now what the data tells us about the visibility of men, women and other genders in the media in general according to their occupation?
 
 Below is a directed graph represening the interactions between speakers and subjects but this time the graph is generated with the occupation and gender of each person as a comparison key. Nodes and edges in blue and red concern respectively males and females.
