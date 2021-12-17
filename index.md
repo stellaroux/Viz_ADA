@@ -44,7 +44,7 @@ Analysis : relashionships ~ 2 paragraph
 
 ## … and often very gendered ones. (Part 2)
 
-Below is a directed graph represening the interactions between speakers and subjects but this time the graph is generated with the occupation and gender of each person as a comparison key. Nodes and edges in blue and red concern respectively males and females.
+Below is a directed graph representing the interactions between speakers and subjects but this time the graph is generated with the occupation and gender of each person as a comparison key. Nodes and edges in blue and red concern respectively males and females.
 
 <iframe src="./docs/nt_2015.html"  width=800 height=1200 id="graph2"></iframe>
 
