@@ -98,32 +98,32 @@ Indeed **women are the origin of less than 20 % of the quotes** that are reporte
 
 We now have a closer look at the graph and want to know what are the occupations of the women represented in the media compared to men.
 
-**Let's start with the women occupations**.
+**Let's start with women's occupations**.
 
 Most of the women present in the media are artists. There is also a few politicians.
 We notice that although on repartition quite a lot of women which said quotes are involved in politics (throughout the years  always more than 17%) or are researchers, business persons, most of the women names found in quotes are artists. And women politicians are way more represented as speakers than as subjects. 
 
-**Now what about the men occupations?**
+**Now what about men's occupations?**
 
 Most of the men present in the media are politicians, artists and sports players. They are much more represented than female in the different occupations and especially in science and sport as well as religion. 
 
 
-**Finally, what about relationships between males and females?** The graph shows a real separation and gap in communication between them where it is mostly the people attached to the public domain who are closest to the men. The artistic field does not escape it, where women don’t communicate much with men, even in the same field. On the whole, relationships between individuals are very gendered ones according to the occupation that each one occupies. 
+**Finally, what about relationships between males and females ?** The graph shows a real separation and gap in communication between them where it is mostly the people attached to the public domain who are closest to the men. The artistic field does not escape it, where women don’t communicate much with men, even in the same field. As a whole, relationships between individuals are very gendered ones according to the occupation that each one occupies. 
 Is it really that men only talk about other men and women only talk about other women?
 
 We provide the following graph made with the 2015 dataset:
 
 {% include Gender_occ_subjects.html %}
 
-In fact we can see that in general **a women is 4 times more likely than a men to speak about another women**. 
-Focusing on occupation, we remark that for the male subjects a lot of the speakers are politicians. This is not always true for women (for example if the subject is a female singer). On the contrary, women tend to talk as much about woman than men. 
+In fact we can see that in general **a woman is 4 times more likely than a man to speak about another woman**. 
+Focusing on occupation, we remark that for the male subjects a lot of the speakers are politicians. This is not always true for women (for example if the subject is a female singer). On the contrary, women tend to talk as much about women as men. 
 
-But still gender inequality subsists with less women in the spotlight than men. We illustrate this looking at the subjects that are actors. We can be surprised than when the subject is an actor there are still very few women (30%). This is not representative to what we see in the cinema. This may be indeed due to the place of women in the movie industry, they don't always have the first role/ an interesting role. In 2021 only 57.6% of the movies pass the Bechdel test.
+But still gender inequality subsists with less women in the spotlight than men. We illustrate this looking at the subjects that are actors. We can be surprised than when the subject is an actor there are still very few women (30%). This is not representative to what we see in cinemas. This may be indeed due to the place of women in the movie industry, where they do not always have the first or an interesting role. So far in 2021 only 57.6% of movies pass the <a href="https://en.wikipedia.org/wiki/Bechdel_test">Bechdel test</a>.
 
 
 ## Towards an evolution in time 
 
-Below is a plot based on the difference between relative connection strengths between 2015 and 2020 for every occupation pairs. The relative connection strength (weight), as said before, is a value between 0 and 1 who gives the importance of a relationship in a given direction.  As an example, if 0.2 (20%) of politicians have mentionned writers in 2015 compared to 0.22 (22%) in 2020, then there is an increase of 0.2 (2%) of politicians who have mentionned writers. As we can see, the differences are mostly around 0, showing that the relationships have not really evolved within the occupations.
+Below is a plot based on the difference between relative connection strengths between 2015 and 2020 for every occupation pairs. The relative connection strength (weight), as said before, is a value between 0 and 1 which estimates the importance of a relationship in a given direction.  As an example, if 0.2 (20%) of politicians have mentionned writers in 2015 compared to 0.22 (22%) in 2020, then there is an increase of 0.2 (2%) of politicians who have mentionned writers. As we can see, the differences are mostly around 0, showing that the relationships have not really evolved within the occupations.
 
 <img src="./docs/P3-1.png" alt="Evolution_histogram">
 
