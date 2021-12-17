@@ -83,7 +83,7 @@ Now what the data tells us about the visibility of men, women and other genders 
 Below is a directed graph represening the **interactions between speakers and subjects** but this time the graph is generated with the **occupation and gender of each person** as a comparison key. Nodes and edges in blue and red concern respectively males and females.
 
 <h3>Interest network based on occupation and gender</h3>
-<h5>Nodes including less than 60 people were not included. Other genders than 'male' and 'female' were all included in the process but were not displayed due to the lack of enough individuals of those genders in the dataset. While those formed very clear clusters, the lack of data prevented any conclusion.</h5>
+<h5>Nodes including less than 60 people were not displayed. Other genders than 'male' and 'female' were all included in the process but were not displayed due to the lack of enough individuals of those genders in the dataset. While those formed very clear clusters, the lack of data prevented any conclusion.</h5>
 <iframe src="./docs/html_graphs/nt_occupation_gender_2015.html" width=800 height=780></iframe>
 
 Compared to the graph with the occupation as a comparison key, **2 clusters are clearly visible : the "female cluster" and the "male cluster"**. Both are very connected within themselves, very far apart from each other and highlight several differences between males and females. 
