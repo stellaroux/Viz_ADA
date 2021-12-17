@@ -45,7 +45,7 @@ Those distributions are **heavily** skewed, far from the usual real-world networ
 
 We define the **interest** of an occupation A in an occupation B as the proportion of the quotations whose speaker is A for which the subject is B. Said in a more natural manner, the *interest* reflects the probability that "*when A talks, it's about B*". The total interest coming out of an occupation is necessarily 1. The interests are indicated in the network by the edges' widths and opacities:
 
-<p><h1>The Interest of occupations for one another</h1>
+<p style="background-color:springgreen;font-size:small;"><h5>The Interest of occupations for one another</h5>
 <iframe src="./docs/html_graphs/nt_occupation_2015.html"  width=800 height=800 id="graph1"></iframe>
 Network indicating the "has mentioned" relationship between all occupations that include at least 60 people. The weight of edges indicate the interest of the source occupation in the destination occupation. For a node N, an edge E is displayed only if its weight reaches the 95%-percentile of the weights of all edges coming out of N.
 </p>
