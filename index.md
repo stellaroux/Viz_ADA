@@ -80,19 +80,20 @@ We now have a closer look at the graph and want to know what are the occupations
 Let's start with the women occupations.
 
 Most of the women present in the media are artists. There is also a few politicians.
-We notice that although on repartition quite a lot of women which said quotes are involved in politics (throughout the years  always more than 17%) or are researchers, business persons, most of the women names found in quotes are artists. And for politicians are way more represented as speakers than as subjects. 
+We notice that although on repartition quite a lot of women which said quotes are involved in politics (throughout the years  always more than 17%) or are researchers, business persons, most of the women names found in quotes are artists. And women politicians are way more represented as speakers than as subjects. 
 
 Now what about the men occupations?
 
 Most of the men present in the media are politicians, artists and sports players. They are much more represented than female in the different occupations and especially in science and sport as well as religion. 
 
-Let's dive deaper into this gender inequality and try to understand why women are that much underrepresented in the media.
+
+Is it really that men only talk about other men and women only talk about other women?
 
 We provide the following graph:
 
 {% include Gender_link_subjects.html %}
 
-Graph which occupation talks to which occupation ?
+In fact we can see that in general a women is 3 times more likely that a men to speak about another women. Now let's see what happens if we focus on an occupation in particular.
 
 \\
 \\
