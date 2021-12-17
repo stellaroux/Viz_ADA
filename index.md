@@ -32,7 +32,8 @@ Using SpaCy, we extract 100 000 quotations for each year (2015 to 2020) in which
 
 ## Some occupations are at the heart of the relationships…
 
-Below is integrated a directed graph of relationships between speakers (people who mentioned someone) and subjects (people who have been mentioned) with the occupation of each person as a comparison key. In other words, a node corresponds to an occupation and a directed edge to the relations between these nodes, i.e., which occupation spoke to which occupation. The present entities (nodes and edges) are weighted according to their redundancy in the graph. Two nodes are close if the relation between these two nodes is strong, i.e., the weight of the edge is large (also nodes and edges are darker). The graph is interactive, feel free to zoom or select nodes!
+Below is a directed graph representing the relationships between the different occupations. **A node corresponds $N$ to an occupation $O_N$** (e.g. 'politician', 'actor'). Its size indicates the amount of unique people (either speaker, subject or both) whose occupations include $O_N$. Because of the vast amount of occupations (each person having potentially multiple occupations), only the nodes that include a minimum of $60$ people are displayed.  
+An edge between nodes $A$ and $B$ indicates that someone of occupation $O_A$ mentioned someone of occupation $O_B$ at least once. However the edges are also weighted between $0$ and $1$: an edge $A \rightarrow B$ of weight $0.25$ indicates that in $25\%$ of the quotations whose speaker's occupations include $A$, the subject has occupation $B$. The weight of the edges are indicated by their opacity and width.
 
 <iframe src="./docs/html_graphs/nt_occupation_2015.html"  width=800 height=1200 id="graph1"></iframe>
 
