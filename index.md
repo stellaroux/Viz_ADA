@@ -86,11 +86,11 @@ But still gender inequality subsists with less women in the spotlight than men. 
 
 ## Towards an evolution in time 
 
-We were interested in how the relationships evolve over time. We computed the difference between the relative connection strength between 2015 and 2020 for every occupation pairs and plotted on histogram. The majority of the pairs are having close to zero change over time, therefore we can conclude that our graphs remain similiar over time. 
+Below is a plot based on the difference between relative connection strengths between 2015 and 2020 for every occupation pairs. The relative connection strength (weight), as said before, is a value between 0 and 1 who gives the importance of a relationship in a given direction.  As an example, if 0.2 (20%) of politicians have mentionned writers in 2015 compared to 0.22 (22%) in 2020, then there is an increase of 0.2 (2%) of politicians who have mentionned writers. As we can see, the differences are mostly around 0, showing that the relationships have not really evolved within the occupations.
 
 <img src="./docs/P3-1.png" alt="Evolution_histogram">
 
-Now, let’s select the first six relationships that have the most changed between 2015 and 2020. 
+Nevertheless, as some have changed, let’s select the first six relationships that have the most changed between 2015 and 2020. 
 
 <img src="./docs/P3-2.png" alt="Forest">
 
