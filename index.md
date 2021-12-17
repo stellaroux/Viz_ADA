@@ -37,11 +37,9 @@ An edge between nodes A and B indicates that someone of occupation A mentioned s
 
 <iframe src="./docs/html_graphs/nt_occupation_2015.html"  width=800 height=1200 id="graph1"></iframe>
 
+Of what we can see, the graph is highly connected and fits in one piece with numerous occupations which are not distributed in the same way with some being more present than others, such as politicians compared to sport cyclists. 
 
-
-Analysis : relashionships ~ 2 paragraph 
-
-
+What about relationships ? There are a lot of them where in particular, some occupations seem to be at the heart of attention such as politicians, writers, singers or actors, as indeed, these are the occupations that most people with other occupations refer to. On the other hand, some relationships are common sense, as for example, we can see that sports managers and coaches are mostly addressing to sportives. Also, some relationships are very inclusive, that is to say, that people with the same occupation are more likely to refer to each other, it is notably the case for football players. 
 
 ## … and often very gendered ones. (Part 2)
 
