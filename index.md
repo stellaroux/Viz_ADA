@@ -90,6 +90,7 @@ Let's dive deaper into this gender inequality and try to understand why women ar
 
 We provide the following graph:
 
+{% include Gender_link_subjects.html %}
 
 Graph which occupation talks to which occupation ?
 
