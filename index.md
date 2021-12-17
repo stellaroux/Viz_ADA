@@ -32,7 +32,7 @@ Using SpaCy, we extract 100 000 quotations for each year, in which a **speaker**
 
 ## Some occupations are at the heart of the relationships…
 
-We computed a directed graph representing the relationships between the different occupations. **A node **N** corresponds to a single occupation** (e.g. 'politician', 'actor'). Its size indicates the amount of unique people (either speaker, subject or both) whose occupations include N. It is common for the people included in the data to have multiple occupations.  
+We computed a directed graph representing the relationships between the different occupations. **A node N corresponds to a single occupation** (e.g. 'politician', 'actor'). Its size indicates the amount of unique people (either speaker, subject or both) whose occupations include N. It is common for the people included in the data to have multiple occupations.  
 
   An edge between two nodes A and B indicates that at least once someone of occupation A mentioned someone of occupation B. However the graph is actually almost complete as it only takes a single quotation for an edge to be created. The following charts show the network's degree distribution:
 
