@@ -74,7 +74,7 @@ Most of the men present in the media are politicians, artists and sports players
 **Finally, what about relationships between males and females?** The graph shows a real separation and gap in communication between them where it is mostly the people attached to the public domain who are closest to the men. The artistic field does not escape it, where women don’t communicate much with men, even in the same field. On the whole, relationships between individuals are very gendered ones according to the occupation that each one occupies. 
 Is it really that men only talk about other men and women only talk about other women?
 
-We provide the following graph: eudaozmehs
+We provide the following graph:
 
 <iframe src="./docs/Gender_occ_subjects.html"  width=800 height=1200 id="graph3"></iframe>
 
