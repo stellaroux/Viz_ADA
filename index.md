@@ -78,7 +78,12 @@ We provide the following graph made with the 2015 dataset:
 
 {% include Gender_occ_subjects.html %}
 
-In fact we can see that in general a women is 3 times more likely that a men to speak about another women. Now let's see what happens if we focus on an occupation in particular.
+In fact we can see that in general a women is 4 times more likely than a men to speak about another women. 
+Focusing on occupation, we remark that for the male subjects a lot of the speakers are politicians. This is not always true for women (for example if the subject is a female singer).
+
+Actually, women tend to talk as much about other women as about men. This may be because people tend to gather with people that are like them. But still gender inequality subsists with less women in the spotlight than men.
+
+We illustrate this with the subjects that are actors. We can be surprised than when the subject is an actor there are still very few women (30%). This is not representative to what we see in the cinema. This may be indeed due to the place of women in the movie industry, they don't always have the first role/ an interesting role. In 2021 only 57.6% of the movies pass the Bechdel test.
 
 
 ## Towards an evolution in time (Part 3)
