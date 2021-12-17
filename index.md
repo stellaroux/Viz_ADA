@@ -84,7 +84,7 @@ Focusing on occupation, we remark that for the male subjects a lot of the speake
 But still gender inequality subsists with less women in the spotlight than men. We illustrate this looking at the subjects that are actors. We can be surprised than when the subject is an actor there are still very few women (30%). This is not representative to what we see in the cinema. This may be indeed due to the place of women in the movie industry, they don't always have the first role/ an interesting role. In 2021 only 57.6% of the movies pass the Bechdel test.
 
 
-## Towards an evolution in time (Part 3)
+## Towards an evolution in time 
 
 We were interested in how the relationships evolve over time. We computed the difference between the relative connection strength between 2015 and 2020 for every occupation pairs and plotted on histogram. The majority of the pairs are having close to zero change over time, therefore we can conclude that our graphs remain similiar over time. 
 
