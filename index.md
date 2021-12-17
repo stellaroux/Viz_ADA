@@ -76,7 +76,7 @@ Is it really that men only talk about other men and women only talk about other 
 
 We provide the following graph: eudaozmehs
 
-<iframe src="./docs/Gender_occ_subjects.html"  width=800 height=1200 id="graph1"></iframe>
+<iframe src="./docs/Gender_occ_subjects.html"  width=800 height=1200 id="graph3"></iframe>
 
 In fact we can see that in general a women is 3 times more likely that a men to speak about another women. Now let's see what happens if we focus on an occupation in particular.
 
