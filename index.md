@@ -41,7 +41,7 @@ Of what we can see, the graph is highly connected and fits in one piece with num
 
 What about relationships ? There are a lot of them where in particular, some occupations seem to be at the heart of attention such as politicians, writers, singers or actors, as indeed, these are the occupations that most people with other occupations refer to. On the other hand, some relationships are common sense, as for example, we can see that sports managers and coaches are mostly addressing to sportives. Also, some relationships are very inclusive, that is to say, that people with the same occupation are more likely to refer to each other, it is notably the case for football players. 
 
-## … and often very gendered ones. (Part 2)
+## … and often very gendered ones.
 
 Now what the data tells us about the visibility of men, women and other genders in the media in general according to their occupation?
 
