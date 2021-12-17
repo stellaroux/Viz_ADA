@@ -2,20 +2,20 @@
 
 ## Introduction 
 
-It is very often the case that well-known personalities are quoted in speeches given by other individuals, creating a **directional relationship from a speaker to a subject**. These relationships occur between two persons with different characteristics, for example their occupation and their gender. As a result, these relationships can be multiple with (very) different natures, where some of these are perhaps more present than others. {: style="text-align: justify"}
+Well-known people are often mentioned by other well-known people. This ***"has mentioned"*** relationship can take place in multiple contexts for multiple reasons, but in the end we expect musicians to talk about music producers more often than about zoologists. But how often do we talk about politicians ? Actors ? Are women mentioned as often as men ? Do women talk about one another more often that they talk about men ? Do we mention female politicians as we mention male ones ? 
 
-This brings us to the question, **how are these relationships distributed?** In this article, we propose to study and understand the relationships between several individuals according to the occupation and gender of each person involved in a relationship. To do so, we want to establish a directed graph of relationships between speakers and people mentioned in the quotations. In particular, some of the questions that will be answered in this article are:
+This brings us to the question, **Who talks about who ?** In this article, we propose to study and understand the relationships between individuals grouped by their occupations and gender. To do so, we establish a directed graph of relationships between speakers and people mentioned in the quotations from the Quotebank dataset. In particular, some of the questions that will be answered in this article are:
 
-* Are these relationships uniform, i.e., involving people of the same occupation?
-* How are the genders represented according to occupation in each relationship?
-* Are these relationships likely to change over time?
+* Are we more interested in people whose occupation is closer to ours ?
+* How does the gender impact these relationships ? Does that impact vary with the occupation ?
+* Are these relationships likely to change over time ?
 
 
 ## The data
 
-In this study we use the Quotebank dataset, a dataset of 178 million unique, speaker-attributed quotations that were extracted from 196 million English news articles crawled from over **377 thousand web domains** between August 2008 and April 2020. We will focus on the years of **2015 to 2020**. 
+In this study we use the Quotebank dataset, a dataset of 178 million unique, speaker-attributed quotations that were extracted from 196 million English news articles crawled from over **377 thousand web domains** between August 2008 and April 2020. We focus on the years **2015 to 2020**. 
 
-Using SpaCy, we extract 100 000 quotations for each year (2015 to 2020) in which a speaker is talking about a human subject. After cleaning, we get the following amount of samples:
+Using SpaCy, we extract 100 000 quotations for each year, in which a **speaker** mentions another person, called the **subject**. After cleaning, we get the following amount of samples:
 
 
 | Year | Number of quotations | Number of speakers | Number of subjects |
@@ -32,21 +32,20 @@ Using SpaCy, we extract 100 000 quotations for each year (2015 to 2020) in which
 
 ## Some occupations are at the heart of the relationships…
 
-
-
 Below is a directed graph representing the relationships between the different occupations. **A node corresponds N to a single occupation** (e.g. 'politician', 'actor'). Its size indicates the amount of unique people (either speaker, subject or both) whose occupations include N. It is common for the people included in the data to have multiple occupations.
 An edge between nodes A and B indicates that someone of occupation A mentioned someone of occupation B at least once. However the graph is actually almost complete as it only takes a single quotation for an edge to be created. The following charts show the network's degree distribution:
+
  |
 :--- | --- :
-|<img src="./docs/figures/degree_distrib_occ.png" alt="Degree_distrib_occs"> |<img src="./docs/figures/degree_distrib_occgen.png " alt="Degree_distrib_occs_gender">|
+|<img src="./docs/figures/degree_distrib_occ.png" alt="Degree_distrib_occs"> |<img src="./docs/figures/degree_distrib_occgen.png" alt="Degree_distrib_occs_gender">|
 Those distributions are **heavily** skewed, far from the usual real-world network. This means two things:
 - We can't display all edges
 - The existence of an edge between two nodes does not on its own represent very valuable information. That's why we'll need to deal with the **weights** of the edges rather than the facts that they exist.
 
 We define the **interest** of an occupation A in an occupation B as the proportion of the quotations whose speaker is A for which the subject is B. Said in a more natural manner, the *interest* reflects the probability that "*when A talks, it's about B*". The total interest coming out of an occupation is necessarily 1. The interests are indicated in the network by the edges' widths and opacities:
 
-<p style="background-color:springgreen;font-size:small;"><h5>The Interest of occupations for one another</h5>
-<iframe src="./docs/html_graphs/nt_occupation_2015.html"  width=800 height=800 id="graph1"></iframe>
+<p style="background-color:springgreen;font-size:small;"><h3>The Interest of occupations for one another</h3>
+<iframe src="./docs/html_graphs/nt_occupation_2015.html"  width=800 height=780 id="graph1" title="The Interest of occupations for one another"></iframe>
 Network indicating the "has mentioned" relationship between all occupations that include at least 60 people. The weight of edges indicate the interest of the source occupation in the destination occupation. For a node N, an edge E is displayed only if its weight reaches the 95%-percentile of the weights of all edges coming out of N.
 </p>
 The graph is highly connected and is with numerous occupations which are not distributed in the same way with some being more present than others, such as politicians compared to sport cyclists.
@@ -54,6 +53,17 @@ The graph is highly connected and is with numerous occupations which are not dis
 What about relationships ? There are a lot of them where in particular, some occupations seem to be at the heart of attention such as politicians, writers, singers or actors. Besides some relationships are common sense, as for example, we can see that sports managers and coaches are mostly addressing to sportives. Furthermore, some relationships are very inclusive, that is to say, that people with the same occupation are more likely to refer to each other, it is notably the case for football players. 
 
 Let's **explore** which occupations get the most **interest**, with different meanings for *"most"*.
+First, a quick view at the **total interest** of the occupations: if we sum all of the interest of all occupations in all other occupations, which ones get the highest scores ? Which occupations does the society overall care most about ?
+<img src="./docs/figures/sum_interests_occ.png" alt="Top 10 occupations in total interest">
+Politicians and singers ! What a surprise ! This list can be interpreted as *the occupations that the population talks the most about overall*. But how about the **average interest** ? If we take a single occupation A, how much do the other occupations care about A *on average* ?
+<img src="./docs/figures/avg_interests_occ.png" alt="Top 10 occupations in average interest">
+Well well well ! No politicians, singers or actors anymore. We now obtain some very **specific** occupations. But then one question arises, how much do people care about the 'most famous' occupations on average ?
+<img src="./docs/figures/avg_interests_giants.png" alt="Average interest of the biggest occupations">
+It appears that the average interests of the occupations in politicians, singers and actors are a little under 4%.
+**What can we conclude ?**
+Let's say you have any random occupation. On average, **you will mention a politician 4% of the times you mention someone**. Nevertheless, **there is most likely another rather specific occupation linked to yours, which you will talk about a lot more often** (perhaps train driver or speed skater).
+
+However **pretty much everyone talks about politicians, while you might be the only one to mention skate drivers**. Thus (and as expected !) the politicians get more attention if you consider the whole social environment as a whole.
 
 ## … and often very gendered ones.
 
@@ -61,7 +71,7 @@ Now what the data tells us about the visibility of men, women and other genders 
 
 Below is a directed graph represening the **interactions between speakers and subjects** but this time the graph is generated with the**occupation and gender of each person** as a comparison key. Nodes and edges in blue and red concern respectively males and females.
 
-<iframe src="./docs/html_graphs/nt_occupation_gender_2015.html" width=800 height=800></iframe>
+<iframe src="./docs/html_graphs/nt_occupation_gender_2015.html" width=800 height=780></iframe>
 
 Compared to the graph with the occupation as a comparison key, **2 clusters are clearly visible : the "female cluster" and the "male cluster"**. Both are very connected within themselves, very far apart from each other and highlight several differences between males and females. 
 
