@@ -35,21 +35,21 @@ Using SpaCy, we extract 100 000 quotations for each year (2015 to 2020) in which
 
 Graph with occupation : 2015
 
-Below is integrated a graph of relationships between speakers (people who mentioned) and subjects (people who have been mentioned) with the occupation of each person as a comparison key. In other words, a node corresponds to an occupation and a directed edge to the relations between these nodes, i.e., which occupation spoke to which occupation. The present entities (nodes and edges) are weighted according to their redundancy in the graph. Two nodes are close if the relation between these two nodes is strong, i.e., the weight of the edge is large (also nodes and edges are darker). The graph is interactive, feel free to zoom or select nodes!
+Below is integrated a directed graph of relationships between speakers (people who mentioned someone) and subjects (people who have been mentioned) with the occupation of each person as a comparison key. In other words, a node corresponds to an occupation and a directed edge to the relations between these nodes, i.e., which occupation spoke to which occupation. The present entities (nodes and edges) are weighted according to their redundancy in the graph. Two nodes are close if the relation between these two nodes is strong, i.e., the weight of the edge is large (also nodes and edges are darker). The graph is interactive, feel free to zoom or select nodes!
 
 Analysis : relashionships ~ 2 paragraph 
 
 
 
-
-
 ## … and often very gendered ones. (Part 2)
 
-Below is the same graph than before but this time with the occupation and gender of each person as a comparison key. Nodes and edges in blue and red concern males and females respectively.
+Below is a directed graph represening the interactions between speakers and subjects but this time the graph is generated with the occupation and gender of each person as a comparison key. Nodes and edges in blue and red concern respectively males and females.
 
 <iframe src="./docs/nt_2015.html"  width=800 height=1200></iframe>
 
-Compared to the graph with the occupation as a comparison key, some clusters are clearly visible. Both are very connected within themselves, very far apart from each other and highlight several differences between males and females. Whether one is a male or a female, occupations are not distributed in the same way, where as an example, sportswomen are not represented, hence a smaller number of nodes. Note also that men are more present in some occupations than women, as for example in politics. 
+Compared to the graph with the occupation as a comparison key, 2 clusters are clearly visible : the "female cluster" and the "male cluster". Both are very connected within themselves, very far apart from each other and highlight several differences between males and females. 
+
+Whether one is a male or a female, occupations are not distributed in the same way, where as an example, sportswomen are not represented, hence a smaller number of nodes. Note also that men are more present in some occupations than women, as for example in politics. 
 
 Especially, the female’s cluster could be separated in such a way that females are gathered in the field of art (singers for example) or in the humanities (politicians for example), where these areas are distant from each other. As for the relationships between women, they communicated mainly between domains, where the politicians and lawyers do not communicate with people of the artistic field. On top of everything else, singers and actors seem to be at the heart of the attention, being the occupations that most women refer to.
 
@@ -57,31 +57,34 @@ About males, they are much more represented and especially in different occupati
 
 Finally, what about relationships between males and females ? Well, almost none… The graph shows a real separation and gap in communication between them where it is mostly the people attached to the public domain who are closest to the men. The artistic field does not escape it, where women don’t communicate much with men, even in the same field. On the whole, relationships between individuals are very gendered ones according to the occupation that each one occupies. 
 
-Are we missing something ? (TODO: Stella's part)
+---------------------------------------------------------
 
-Analysis ~ 2 paragraph 
+Now what the data tells us about the visibility of men, women and other genders in the media in general according to their occupation?
 
-(Graph which gender/occupation talks to which gender/occupation ?)
+Below is a directed graph represening the interactions between speakers and subjects but this time the graph is generated with the occupation and gender of each person as a comparison key. Nodes and edges in blue and red concern respectively males and females.
 
+<iframe src="./docs/nt_2015.html"  width=800 height=1200></iframe>
 
-We now want to look at what this data tells us about gender equality. Do men, women and other genders have the same visibility in the media in general?
+Compared to the graph with the occupation as a comparison key, 2 clusters are clearly visible : the "female cluster" and the "male cluster". Both are very connected within themselves, very far apart from each other and highlight several differences between males and females. 
+
+At first we can see that the female and male clusters have very different sizes. And if we take a closer look on the data we can see that, indeed, women are very underrepresented in the media.
 
  |
 :--- | --- :
 |<img src="./docs/Gender_speakers.png" alt="Forest"> |<img src="./docs/Gender_subjects.png " alt="Forest">|
 
-Clearly the answer is no. According to worldometers in 2013 there are 50.4 % of men and 49.6 % of women  in the world. Hence it seems that women are very underrepresented in the media. Indeed **women are the origin of less than 20 % of the quotes** that are reported in the media and are **5 times less likely than men to be spoken** about in the media.
+According to worldometers in 2013 there are 50.4 % of men and 49.6 % of women  in the world. Hence it seems that women are very underrepresented in the media. Indeed **women are the origin of less than 20 % of the quotes** that are reported in the media and are **5 times less likely than men to be spoken** about in the media.
 
-We dig a bit more into gender inequality and want to know what are the occupations of the women represented in the media compared to men. TOO MUCH DATA? YES, TOMORROW I WILL MAKE ONE GRAPH WITH A MEAN FOR ALL YEARS AND SLIDES FOR MALE_SUBJECT, MALE_SPEAKER, etc
+We now have a closer look at the graph and want to know what are the occupations of the women represented in the media compared to men.
 
 Let's start with the women occupations.
 
 Most of the women present in the media are artists. There is also a few politicians.
-We notice that although on repartition quite a lot of women which said quotes are involved in politics (throughout the years  always more than 17%) or are researchers, business persons, most of the women names found in quotes are artist names. And for politicians are way more represented as speakers than as subjects. 
+We notice that although on repartition quite a lot of women which said quotes are involved in politics (throughout the years  always more than 17%) or are researchers, business persons, most of the women names found in quotes are artists. And for politicians are way more represented as speakers than as subjects. 
 
 Now what about the men occupations?
 
-Most of the men present in the media are politicians, artists and sports players.
+Most of the men present in the media are politicians, artists and sports players. They are much more represented than female in the different occupations and especially in science and sport as well as religion. 
 
 Let's dive deaper into this gender inequality and try to understand why women are that much underrepresented in the media.
 
