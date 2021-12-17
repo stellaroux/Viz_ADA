@@ -2,20 +2,20 @@
 
 ## Introduction 
 
-It is very often the case that well-known personalities are quoted in speeches given by other individuals, creating a **directional relationship from a speaker to a subject**. These relationships occur between two persons with different characteristics, for example their occupation and their gender. As a result, these relationships can be multiple with (very) different natures, where some of these are perhaps more present than others. {: style="text-align: justify"}
+Well-known people are often mentioned by other well-known people. This ***"has mentioned"*** relationship can take place in multiple contexts for multiple reasons, but in the end we expect musicians to talk about music producers more often than about zoologists. But how often do we talk about politicians ? Actors ? Are women mentioned as often as men ? Do women talk about one another more often that they talk about men ? Do we mention female politicians as we mention male ones ? 
 
-This brings us to the question, **how are these relationships distributed?** In this article, we propose to study and understand the relationships between several individuals according to the occupation and gender of each person involved in a relationship. To do so, we want to establish a directed graph of relationships between speakers and people mentioned in the quotations. In particular, some of the questions that will be answered in this article are:
+This brings us to the question, **Who talks about who ?** In this article, we propose to study and understand the relationships between individuals grouped by their occupations and gender. To do so, we establish a directed graph of relationships between speakers and people mentioned in the quotations from the Quotebank dataset. In particular, some of the questions that will be answered in this article are:
 
-* Are these relationships uniform, i.e., involving people of the same occupation?
-* How are the genders represented according to occupation in each relationship?
-* Are these relationships likely to change over time?
+* Are we more interested in people whose occupation is closer to ours ?
+* How does the gender impact these relationships ? Does that impact vary with the occupation ?
+* Are these relationships likely to change over time ?
 
 
 ## The data
 
-In this study we use the Quotebank dataset, a dataset of 178 million unique, speaker-attributed quotations that were extracted from 196 million English news articles crawled from over **377 thousand web domains** between August 2008 and April 2020. We will focus on the years of **2015 to 2020**. 
+In this study we use the Quotebank dataset, a dataset of 178 million unique, speaker-attributed quotations that were extracted from 196 million English news articles crawled from over **377 thousand web domains** between August 2008 and April 2020. We focus on the years **2015 to 2020**. 
 
-Using SpaCy, we extract 100 000 quotations for each year (2015 to 2020) in which a speaker is talking about a human subject. After cleaning, we get the following amount of samples:
+Using SpaCy, we extract 100 000 quotations for each year, in which a **speaker** mentions another person, called the **subject**. After cleaning, we get the following amount of samples:
 
 
 | Year | Number of quotations | Number of speakers | Number of subjects |
@@ -32,14 +32,12 @@ Using SpaCy, we extract 100 000 quotations for each year (2015 to 2020) in which
 
 ## Some occupations are at the heart of the relationships…
 
-
-
 Below is a directed graph representing the relationships between the different occupations. **A node corresponds N to a single occupation** (e.g. 'politician', 'actor'). Its size indicates the amount of unique people (either speaker, subject or both) whose occupations include N. It is common for the people included in the data to have multiple occupations.
 An edge between nodes A and B indicates that someone of occupation A mentioned someone of occupation B at least once. However the graph is actually almost complete as it only takes a single quotation for an edge to be created. The following charts show the network's degree distribution:
 
  |
 :--- | --- :
-|<img src="./docs/figures/degree_distrib_occ.png" alt="Degree_distrib_occs"> |<img src="./docs/figures/degree_distrib_occgen.png alt="Degree_distrib_occs_gender">|
+|<img src="./docs/figures/degree_distrib_occ.png" alt="Degree_distrib_occs"> |<img src="./docs/figures/degree_distrib_occgen.png" alt="Degree_distrib_occs_gender">|
 Those distributions are **heavily** skewed, far from the usual real-world network. This means two things:
 - We can't display all edges
 - The existence of an edge between two nodes does not on its own represent very valuable information. That's why we'll need to deal with the **weights** of the edges rather than the facts that they exist.
